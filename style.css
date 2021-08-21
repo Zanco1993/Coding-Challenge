@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.contenitore-informazioni{
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.informazioni{
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+header > img{
+  width: 250px;
+  margin-top: 70px;
+}
+
+header > h1{
+  color: #2bc700;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+nav{
+  height: 50px;
+  line-height: 50px;
+  background: #44cc00;
+}
+
+/* Aggiunto un effetto nel button */
+nav > button:hover{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+main{
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+section{
+  margin-top: 20px;
+}
+
+.proprietario{
+  display: inline-block;
+}
+
+section > p{
+  color: lightgrey;
+  font-size: 15px;
+}
+
+.carica{
+  background: orange;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#primo-monopattino{
+  background: #FFB84D;
+  width: 35%;
+}
+
+#secondo-monopattino{
+  background: #01D508;
+  width: 60%;
+}
+
+#terzo-monopattino{
+  background: #B34C47;
+  width: 15%;
+}
